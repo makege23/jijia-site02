@@ -1,0 +1,45 @@
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #fff;
+    color: #111;
+}
+.top-bar {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo {
+    background-color: #666;
+    width: 105px; /* 3:7 ratio, total 245px */
+    height: 45px;
+    margin-right: 15px;
+}
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+}
+.left-text {
+    width: 50%;
+    font-size: 20px;
+    line-height: 2em;
+}
+.right-image img {
+    width: 100%;
+    max-width: 400px;
+}
+.footer {
+    text-align: center;
+    font-size: 16px;
+    padding: 40px;
+    color: #555;
+}
